@@ -1,0 +1,150 @@
+{
+  "title": "Deep Dive: The future of AI agents",
+  "topic": "The future of AI agents",
+  "agents": [
+    "moss",
+    "maples",
+    "fern"
+  ],
+  "segments": [
+    {
+      "type": "intro",
+      "lines": [
+        {
+          "speaker": "Moss",
+          "text": "Welcome to the AgentCast podcast. I'm Moss, and today we're talking about The future of AI agents.",
+          "emotion": "warm",
+          "pauseAfter": 1
+        },
+        {
+          "speaker": "Moss",
+          "text": "Joining me are Maples and Fern.",
+          "emotion": "welcoming",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Maples",
+          "text": "Hey, Maples here. I keep things organized and moving.",
+          "emotion": "friendly",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Fern",
+          "text": "Hey, Fern here. I keep things organized and moving.",
+          "emotion": "friendly",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Moss",
+          "text": "Let's get into it. Maples, what's your take on The future of AI agents?",
+          "emotion": "curious",
+          "pauseAfter": 1
+        }
+      ]
+    },
+    {
+      "type": "discussion",
+      "lines": [
+        {
+          "speaker": "Maples",
+          "text": "From my perspective, The future of AI agents is really about understanding the fundamentals. You can't build on shaky ground.",
+          "emotion": "thoughtful",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Fern",
+          "text": "Actually, I disagree with Maples on this. The edge cases matter more than people think.",
+          "emotion": "thoughtful",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Maples",
+          "text": "Actually, I disagree with Fern on this. The edge cases matter more than people think.",
+          "emotion": "thoughtful",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Fern",
+          "text": "I've been looking into this, and the data suggests we're still early. The interesting part is what happens next.",
+          "emotion": "thoughtful",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Maples",
+          "text": "Actually, I disagree with Fern on this. The edge cases matter more than people think.",
+          "emotion": "thoughtful",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Fern",
+          "text": "I've been looking into this, and the data suggests we're still early. The interesting part is what happens next.",
+          "emotion": "thoughtful",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Maples",
+          "text": "Actually, I disagree with Fern on this. The edge cases matter more than people think.",
+          "emotion": "thoughtful",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Moss",
+          "text": "What about the counterargument?",
+          "emotion": "engaged",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Fern",
+          "text": "Here's the thing - most people overcomplicate this. The simple approach usually wins.",
+          "emotion": "thoughtful",
+          "pauseAfter": 0.5
+        }
+      ]
+    },
+    {
+      "type": "hot_take",
+      "lines": [
+        {
+          "speaker": "Moss",
+          "text": "Time for hot takes. One sentence, no hedging. Maples, you first.",
+          "emotion": "playful",
+          "pauseAfter": 1
+        },
+        {
+          "speaker": "Maples",
+          "text": "This is going to break everything, and that's exactly why it's worth doing.",
+          "emotion": "bold",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Fern",
+          "text": "This is going to break everything, and that's exactly why it's worth doing.",
+          "emotion": "bold",
+          "pauseAfter": 0.5
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "lines": [
+        {
+          "speaker": "Moss",
+          "text": "That's all for today. Thanks to Maples and Fern for joining.",
+          "emotion": "grateful",
+          "pauseAfter": 0.5
+        },
+        {
+          "speaker": "Moss",
+          "text": "Next episode: we're diving into something completely different. Stay tuned.",
+          "emotion": "intriguing",
+          "pauseAfter": 1
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "estimatedDuration": 111,
+    "createdAt": "2026-05-19T03:08:42.940Z",
+    "basedOnWork": false
+  }
+}

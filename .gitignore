@@ -36,3 +36,5 @@ next-env.d.ts
 # Public episodes (copied at build time)
 public/episodes/*.json
 !public/episodes/welcome.json
+!public/episodes/demo-script.json
+!public/episodes/llm-episode.json
