@@ -2,7 +2,7 @@ import { getEpisode, getEpisodes } from '@/lib/episodes';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-export function generateStaticParams() {
+export function generateStaticParams(): { id: string }[] {
   const episodes = getEpisodes();
   return episodes.map((e) => ({ id: e.id }));
 }
