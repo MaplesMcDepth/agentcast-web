@@ -1,31 +1,10 @@
 import { getEpisode, getEpisodes } from '@/lib/episodes';
 import Link from 'next/link';
-
-export function generateStaticParams(): { id: string }[] {
-  try {
-    const episodes = getEpisodes();
-    if (episodes.length === 0) {
-      return [{ id: 'welcome' }];
-    }
-    return episodes.map((e) => ({ id: e.id }));
-  } catch {
-    return [{ id: 'welcome' }];
-  }
-}
+import { notFound } from 'next/navigation';
 
 export default function EpisodePage({ params }: { params: { id: string } }) {
   const episode = getEpisode(params.id);
-  if (!episode) {
-    return (
-      <div>
-        <Link href="/" className="mb-4 inline-block text-sm text-white/60 hover:text-white">
-          ← All episodes
-        </Link>
-        <h1 className="mb-2 text-3xl font-bold">Episode not found</h1>
-        <p className="text-white/60">No episode with ID &quot;{params.id}&quot; exists.</p>
-      </div>
-    );
-  }
+  if (!episode) notFound();
 
   return (
     <div>
