@@ -6,11 +6,11 @@ export function generateStaticParams(): { id: string }[] {
   try {
     const episodes = getEpisodes();
     if (episodes.length === 0) {
-      return [{ id: 'placeholder' }];
+      return [{ id: 'welcome' }];
     }
     return episodes.map((e) => ({ id: e.id }));
   } catch {
-    return [{ id: 'placeholder' }];
+    return [{ id: 'welcome' }];
   }
 }
 
