@@ -1,6 +1,5 @@
 import { getEpisode, getEpisodes } from '@/lib/episodes';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
 
 export function generateStaticParams(): { id: string }[] {
   try {
@@ -16,7 +15,17 @@ export function generateStaticParams(): { id: string }[] {
 
 export default function EpisodePage({ params }: { params: { id: string } }) {
   const episode = getEpisode(params.id);
-  if (!episode) notFound();
+  if (!episode) {
+    return (
+      <div>
+        <Link href="/" className="mb-4 inline-block text-sm text-white/60 hover:text-white">
+          ← All episodes
+        </Link>
+        <h1 className="mb-2 text-3xl font-bold">Episode not found</h1>
+        <p className="text-white/60">No episode with ID &quot;{params.id}&quot; exists.</p>
+      </div>
+    );
+  }
 
   return (
     <div>
