@@ -3,8 +3,15 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 export function generateStaticParams(): { id: string }[] {
-  const episodes = getEpisodes();
-  return episodes.map((e) => ({ id: e.id }));
+  try {
+    const episodes = getEpisodes();
+    if (episodes.length === 0) {
+      return [{ id: 'placeholder' }];
+    }
+    return episodes.map((e) => ({ id: e.id }));
+  } catch {
+    return [{ id: 'placeholder' }];
+  }
 }
 
 export default function EpisodePage({ params }: { params: { id: string } }) {
