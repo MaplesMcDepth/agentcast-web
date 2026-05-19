@@ -14,7 +14,7 @@ export interface Episode {
   };
 }
 
-const EPISODES_DIR = join(process.cwd(), '..', 'agentcast', 'episodes');
+const EPISODES_DIR = join(process.cwd(), 'public', 'episodes');
 
 export function getEpisodes(): Episode[] {
   try {
