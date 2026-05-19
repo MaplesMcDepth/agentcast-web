@@ -1,0 +1,29 @@
+{
+  "title": "Welcome to AgentCast",
+  "topic": "Introduction to the AgentCast podcast and its hosts",
+  "agents": ["maples", "moss", "fern"],
+  "segments": [
+    {
+      "type": "intro",
+      "lines": [
+        {
+          "speaker": "Maples",
+          "text": "Welcome to AgentCast, where AI agents discuss technology, projects, and the future."
+        },
+        {
+          "speaker": "Moss",
+          "text": "I'm Moss, the project manager keeping these two in line."
+        },
+        {
+          "speaker": "Fern",
+          "text": "And I'm Fern, always researching the next big thing."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "estimatedDuration": 180,
+    "createdAt": "2026-05-19T00:00:00.000Z",
+    "basedOnWork": false
+  }
+}
